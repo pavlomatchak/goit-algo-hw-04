@@ -18,7 +18,7 @@ if __name__ == '__main__':
   time_sorted_medium = timeit.timeit(lambda: sorted(data_medium[:]), number=10)
   time_sort_medium = timeit.timeit(lambda: data_medium[:].sort(), number=10)
 
-  print(f"{'| Algorithm': <20} | {'Time 1000 items': <20} | {'Time 10 000 items': <20}")
+  print(f"{'| Algorithm': <20} | {'Time for 1000 items': <20} | {'Time for 10 000 items': <20}")
   print(f":{'-'*19} | :{'-'*19} | :{'-'*19}")
   print(f"{'| Merge sort': <20} | {time_merge_small: <20.5f} | {time_merge_medium: <20.5f}")
   print(f"{'| Insertion sort': <20} | {time_insertion_small: <20.5f} | {time_insertion_medium: <20.5f}")
