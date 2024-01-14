@@ -1,6 +1,6 @@
 # Результати
 
-| Algorithm          | Time 1000 items      | Time 10 000 items   
+| Algorithm          | Time for 1000 items      | Time for 10 000 items   
 :------------------- | :------------------- | :-------------------
 | Merge sort         | 0.04281              | 0.48250             
 | Insertion sort     | 0.24722              | 25.24863            
